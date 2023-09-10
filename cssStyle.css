@@ -1,0 +1,78 @@
+form{
+    max-width: 500px;
+    /* text-align: center; */
+    margin: auto;
+}
+#form{
+    text-align: center;
+}
+label{
+    display: block;
+    margin: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+input[type="checkbox"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+a{
+    text-decoration: none;
+    /* color: black; */
+}
+/* .footer a{
+    color: #AAA;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+} */
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 3em;
+    text-align: center;
+    background-color: #555;
+    /* display: block; */
+    position: fixed;
+}
+footer span
+{
+  color: #AAA;
+}
+
+#bg{
+    background: url('jaipur.webp');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+form{
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100; 
+     background: rgba(0,0,0,0.3);
+    color: white;
+    padding: 4rem;
+    width: 33%;
+    margin:auto;
+    font-size: 1.2rem; 
+    justify-content: center;
+}
